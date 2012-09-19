@@ -1,0 +1,229 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BFD4D35160A7F0D00F5AFCB /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD4D34160A7F0D00F5AFCB /* AppDelegate.mm */; };
+		2BFD4D37160A7F0D00F5AFCB /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BFD4D36160A7F0D00F5AFCB /* en.strings */; };
+		2BFD4D39160A7F0D00F5AFCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD4D38160A7F0D00F5AFCB /* main.m */; };
+		2BFD4D3B160A7F0D00F5AFCB /* main.pch in Resources */ = {isa = PBXBuildFile; fileRef = 2BFD4D3A160A7F0D00F5AFCB /* main.pch */; };
+		2BFD4D3E160A7F0D00F5AFCB /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFD4D3D160A7F0D00F5AFCB /* main.xib */; };
+		2BFD4D41160A7F0D00F5AFCB /* poOpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD4D40160A7F0D00F5AFCB /* poOpenGLView.mm */; };
+		2BFD4D45160A7F0D00F5AFCB /* StopwatchApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD4D44160A7F0D00F5AFCB /* StopwatchApp.cpp */; };
+		2BFD4D47160A7F0D00F5AFCB /* AppConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD4D46160A7F0D00F5AFCB /* AppConfig.cpp */; };
+		2BFD4D49160A7F0E00F5AFCB /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BFD4D48160A7F0E00F5AFCB /* OpenSans-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BFD4D2C160A7F0D00F5AFCB /* Stopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stopwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BFD4D31160A7F0D00F5AFCB /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = ../platform/Debug.xcconfig; sourceTree = "<group>"; };
+		2BFD4D32160A7F0D00F5AFCB /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = ../platform/Release.xcconfig; sourceTree = "<group>"; };
+		2BFD4D33160A7F0D00F5AFCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../platform/AppDelegate.h; sourceTree = "<group>"; };
+		2BFD4D34160A7F0D00F5AFCB /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ../platform/AppDelegate.mm; sourceTree = "<group>"; };
+		2BFD4D36160A7F0D00F5AFCB /* en.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en.strings; path = ../platform/en.strings; sourceTree = "<group>"; };
+		2BFD4D38160A7F0D00F5AFCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../platform/main.m; sourceTree = "<group>"; };
+		2BFD4D3A160A7F0D00F5AFCB /* main.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = main.pch; path = ../platform/main.pch; sourceTree = "<group>"; };
+		2BFD4D3C160A7F0D00F5AFCB /* main.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = main.plist; path = ../platform/main.plist; sourceTree = "<group>"; };
+		2BFD4D3D160A7F0D00F5AFCB /* main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = main.xib; path = ../platform/main.xib; sourceTree = "<group>"; };
+		2BFD4D3F160A7F0D00F5AFCB /* poOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = poOpenGLView.h; path = ../platform/poOpenGLView.h; sourceTree = "<group>"; };
+		2BFD4D40160A7F0D00F5AFCB /* poOpenGLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = poOpenGLView.mm; path = ../platform/poOpenGLView.mm; sourceTree = "<group>"; };
+		2BFD4D43160A7F0D00F5AFCB /* StopwatchApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StopwatchApp.h; sourceTree = "<group>"; };
+		2BFD4D44160A7F0D00F5AFCB /* StopwatchApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StopwatchApp.cpp; sourceTree = "<group>"; };
+		2BFD4D46160A7F0D00F5AFCB /* AppConfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AppConfig.cpp; sourceTree = "<group>"; };
+		2BFD4D48160A7F0E00F5AFCB /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "../platform/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BFD4D29160A7F0D00F5AFCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BFD4D21160A7F0D00F5AFCB = {
+			isa = PBXGroup;
+			children = (
+				2BFD4D2F160A7F0D00F5AFCB /* Stopwatch */,
+				2BFD4D2D160A7F0D00F5AFCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BFD4D2D160A7F0D00F5AFCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BFD4D2C160A7F0D00F5AFCB /* Stopwatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BFD4D2F160A7F0D00F5AFCB /* Stopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				2BFD4D30160A7F0D00F5AFCB /* platform */,
+				2BFD4D42160A7F0D00F5AFCB /* application */,
+			);
+			path = Stopwatch;
+			sourceTree = "<group>";
+		};
+		2BFD4D30160A7F0D00F5AFCB /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				2BFD4D31160A7F0D00F5AFCB /* Debug.xcconfig */,
+				2BFD4D32160A7F0D00F5AFCB /* Release.xcconfig */,
+				2BFD4D33160A7F0D00F5AFCB /* AppDelegate.h */,
+				2BFD4D34160A7F0D00F5AFCB /* AppDelegate.mm */,
+				2BFD4D36160A7F0D00F5AFCB /* en.strings */,
+				2BFD4D38160A7F0D00F5AFCB /* main.m */,
+				2BFD4D3A160A7F0D00F5AFCB /* main.pch */,
+				2BFD4D3C160A7F0D00F5AFCB /* main.plist */,
+				2BFD4D3D160A7F0D00F5AFCB /* main.xib */,
+				2BFD4D3F160A7F0D00F5AFCB /* poOpenGLView.h */,
+				2BFD4D40160A7F0D00F5AFCB /* poOpenGLView.mm */,
+				2BFD4D48160A7F0E00F5AFCB /* OpenSans-Regular.ttf */,
+			);
+			name = platform;
+			sourceTree = "<group>";
+		};
+		2BFD4D42160A7F0D00F5AFCB /* application */ = {
+			isa = PBXGroup;
+			children = (
+				2BFD4D43160A7F0D00F5AFCB /* StopwatchApp.h */,
+				2BFD4D44160A7F0D00F5AFCB /* StopwatchApp.cpp */,
+				2BFD4D46160A7F0D00F5AFCB /* AppConfig.cpp */,
+			);
+			name = application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BFD4D2B160A7F0D00F5AFCB /* Stopwatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BFD4D4C160A7F0E00F5AFCB /* Build configuration list for PBXNativeTarget "Stopwatch" */;
+			buildPhases = (
+				2BFD4D28160A7F0D00F5AFCB /* Sources */,
+				2BFD4D29160A7F0D00F5AFCB /* Frameworks */,
+				2BFD4D2A160A7F0D00F5AFCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stopwatch;
+			productName = Stopwatch;
+			productReference = 2BFD4D2C160A7F0D00F5AFCB /* Stopwatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BFD4D23160A7F0D00F5AFCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 2BFD4D26160A7F0D00F5AFCB /* Build configuration list for PBXProject "Stopwatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BFD4D21160A7F0D00F5AFCB;
+			productRefGroup = 2BFD4D2D160A7F0D00F5AFCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BFD4D2B160A7F0D00F5AFCB /* Stopwatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BFD4D2A160A7F0D00F5AFCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFD4D37160A7F0D00F5AFCB /* en.strings in Resources */,
+				2BFD4D3B160A7F0D00F5AFCB /* main.pch in Resources */,
+				2BFD4D3E160A7F0D00F5AFCB /* main.xib in Resources */,
+				2BFD4D49160A7F0E00F5AFCB /* OpenSans-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BFD4D28160A7F0D00F5AFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFD4D35160A7F0D00F5AFCB /* AppDelegate.mm in Sources */,
+				2BFD4D39160A7F0D00F5AFCB /* main.m in Sources */,
+				2BFD4D41160A7F0D00F5AFCB /* poOpenGLView.mm in Sources */,
+				2BFD4D45160A7F0D00F5AFCB /* StopwatchApp.cpp in Sources */,
+				2BFD4D47160A7F0D00F5AFCB /* AppConfig.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2BFD4D4A160A7F0E00F5AFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BFD4D31160A7F0D00F5AFCB /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2BFD4D4B160A7F0E00F5AFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BFD4D32160A7F0D00F5AFCB /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		2BFD4D4D160A7F0E00F5AFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2BFD4D4E160A7F0E00F5AFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BFD4D26160A7F0D00F5AFCB /* Build configuration list for PBXProject "Stopwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BFD4D4A160A7F0E00F5AFCB /* Debug */,
+				2BFD4D4B160A7F0E00F5AFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BFD4D4C160A7F0E00F5AFCB /* Build configuration list for PBXNativeTarget "Stopwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BFD4D4D160A7F0E00F5AFCB /* Debug */,
+				2BFD4D4E160A7F0E00F5AFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BFD4D23160A7F0D00F5AFCB /* Project object */;
+}
